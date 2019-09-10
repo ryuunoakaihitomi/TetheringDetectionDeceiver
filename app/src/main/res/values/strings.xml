@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TetheringDetectionDeceiver</string>
+    <string name="xposed_description">You don\'t have to know if tethering is working.</string>
+</resources>
