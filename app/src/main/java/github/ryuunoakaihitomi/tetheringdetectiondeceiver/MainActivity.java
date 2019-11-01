@@ -22,9 +22,9 @@ public class MainActivity extends Activity {
 
     private String debugMsg() {
         return "debugMsg" + C.LS +
-                "Logcat Tag: " + C.TAG + C.LS +
+                "Log Tag: " + C.TAG + C.LS +
                 "XHook Enable: " + HookHelper.isXposedActive + C.LS +
-                "isTetheringWorking: " + TetheringHelper.isTetheringWorking(this) + C.LS +
-                "getTetheredFaces: " + Arrays.toString(TetheringHelper.getTetheredFaces(this));
+                "isTethering: " + TetherHelper.isTethering(this) + C.LS +
+                "getTetheredFaces: " + Arrays.toString(TetherHelper.getTetheredFaces(this));
     }
 }

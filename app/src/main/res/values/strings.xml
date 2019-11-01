@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">TetheringDetectionDeceiver</string>
-    <string name="xposed_description">You don\'t have to know if tethering is working.</string>
+    <string name="xposed_description">Prevent user apps from detecting if the device\'s tethering is running.</string>
 </resources>
